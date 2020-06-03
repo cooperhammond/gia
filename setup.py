@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name =         'ia',
-    version =      '0.0.1',
+    version =      '1.0.0',
     description =  'A powerful image aggregator for data science projects.',
     url =          'https://github.com/cooperhammond/ia',
     author =       'Cooper Hammond',

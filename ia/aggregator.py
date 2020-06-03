@@ -22,7 +22,7 @@ ON_WSL = "microsoft" in platform.uname()[3].lower()
 
 class ImageAggregator:
 
-    def __init__(self, destination, classes, query_sets, default_depth=5, max_workers=8):
+    def __init__(self, destination, classes, query_sets, default_depth=0, max_workers=8):
         self.sys_destination = Path(destination)
         self.python_dest = self.sys_destination
 

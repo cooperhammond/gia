@@ -31,13 +31,13 @@ def main():
 
     args = parser.parse_args()
 
-    destination = Path(args.destination)
+    destination = args.destination
     classes = eval(args.classes)
     queries = eval(args.queries)
     depth = args.depth
 
     if depth is None:
-        depth = 5
+        depth = 0
 
     IA = ImageAggregator(destination, classes, queries, default_depth=depth)
     IA.aggregate()
