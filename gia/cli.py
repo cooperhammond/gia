@@ -17,7 +17,7 @@ def main():
                         help='the default depth to go through queries for images')
 
     """decompressed example fish command
-    ia (wslpath -w (pwd)/data) 
+    gia (wslpath -w (pwd)/data) 
         "[
             'jeff bezos', 
             'bill gates'
@@ -39,8 +39,8 @@ def main():
     if depth is None:
         depth = 0
 
-    IA = ImageAggregator(destination, classes, queries, default_depth=depth)
-    IA.aggregate()
+    ia = ImageAggregator(destination, classes, queries, default_depth=depth)
+    ia.aggregate()
     
 if __name__ == "__main__":
     main()
