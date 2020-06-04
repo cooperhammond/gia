@@ -1,13 +1,16 @@
 # gia: General Image Aggregator
 
 [![](https://img.shields.io/github/languages/code-size/cooperhammond/gia?color=green&style=flat-square)](https://saythanks.io/to/kepoorh%40gmail.com)
-[![](https://img.shields.io/pypi/v/gia?color=blue&style=flat-square)](https://saythanks.io/to/kepoorh%40gmail.com)
+[![](https://img.shields.io/pypi/v/gia?color=blue&style=flat-square)](https://pypi.org/project/gia/)
 [![](https://img.shields.io/badge/say-thanks-ff69b4?style=flat-square)](https://saythanks.io/to/kepoorh%40gmail.com)
 
 > 🤖📷 A powerful image aggregator for data science projects
 
 This is a CLI tool and/or library for automating/standardizing what images you download for a data science project.
 
+[![asciicast](https://asciinema.org/a/336440.svg)](https://asciinema.org/a/336440)
+
+---
 
 ## Installation
 

@@ -2,9 +2,9 @@ from setuptools import setup
 
 setup(
     name =         'gia',
-    version =      '1.0.0',
+    version =      '1.0.1',
     description =  'A powerful image aggregator for data science projects.',
-    url =          'https://github.com/cooperhammondg/gia',
+    url =          'https://github.com/cooperhammond/gia',
     author =       'Cooper Hammond',
     author_email = 'kepoorh@gmail.com',
     license =      'GPL',
